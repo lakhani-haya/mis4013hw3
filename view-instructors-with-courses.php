@@ -2,7 +2,7 @@
 <div class="card-group">
  
 <?php
-while ($instructor = $instructors->fetch.assoc()) {
+while ($instructor = $instructors->fetch_assoc()) {
 ?>
     <div class="card">
     <img src="..." class="card-img-top" alt="...">
