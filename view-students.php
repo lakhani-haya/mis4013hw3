@@ -1,19 +1,17 @@
-<h1>Students </h1>
+<h1>Students</h1>
 <div class="table-responsive">
   <table class="table">
    <thead>
      <tr>
       <th>ID</th>
-     <th>Name</th>
-     <th>Major</th>
-     <th>Course</th>
-     <th></th>  
+      <th>Name</th>
+      <th>Major</th>
+      <th>Course</th>
      </tr>
-    
    </thead>
    <tbody>
 <?php
-while ($student = $students->fetch.assoc()) {
+while ($student = $students->fetch_assoc()) {
 ?>
 <tr>
   <td><?php echo $student['student_id']; ?></td>
