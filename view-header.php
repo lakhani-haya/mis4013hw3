@@ -27,6 +27,9 @@
         <li class="nav-item">
           <a class="nav-link" href="instructors-with-courses.php">Instructors with courses</a>
         </li>
+        <li class="nav-item">
+        <a class="nav-link" href="students.php">Students</a>
+       </li>
       </ul>  
     </div>
   </div>
