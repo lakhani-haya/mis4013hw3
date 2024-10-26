@@ -3,8 +3,9 @@ require_once("util-db.php");
 require_once("model-sections-by-course.php");
 
 $pageTitle = "Sections by Course";
-Include "view-header.php";
-$instructors = selectSectionsByCourse($_POST['cid']);
+include "view-header.php";
+$sections = selectSectionsByCourse($_POST['cid']);
 include "view-sections-by-course.php";
-Include "view-footer.php";
+include "view-footer.php";
 ?>
+
