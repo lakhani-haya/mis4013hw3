@@ -5,16 +5,15 @@
      <tr>
      <th>ID</th>
      <th>Number</th>
-     <th>Desription</th>
+     <th>Description</th>
      <th>Semester</th>
      <th>Room</th>
      <th>Day/Time</th>  
      </tr>
-    
    </thead>
    <tbody>
 <?php
-while ($course = $courses->fetch.assoc()) {
+while ($course = $courses->fetch_assoc()) {
 ?>
 <tr>
   <td><?php echo $course['course_id']; ?></td>
